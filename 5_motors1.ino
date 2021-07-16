@@ -14,7 +14,7 @@
 
 #include <Servo.h>
 
-int inipos = 90;z
+int inipos = 90;
 int pos=0;
 
 Servo ser01;

@@ -40,16 +40,4 @@ void setup()
 
 void loop()
 {
-  for(pos=inipos;pos<=190;pos++){
-   ser01.write(pos);
-   delay(20);
-   ser02.write(pos);
-   delay(20);   
-   ser03.write(pos);
-   delay(20);
-   ser04.write(pos);
-   delay(20);
-   ser05.write(pos);
-   delay(20);
-  }
 }
